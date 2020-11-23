@@ -1,0 +1,40 @@
+// Place all the styles related to the todoes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html{
+  font-size: medium;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.box0{
+  width: 100%;
+  text-align: center;
+}
+header{
+  height: 10%;
+  padding: 0 10px;
+  background-color: #ff0000;
+}
+header > h1{
+  float: left;
+}
+header > p{
+  float: right;
+}
+.main{
+  width: 100%;
+  height: 500px;
+  background-color: #0000ff;
+}
+li{
+  list-style: none;
+}
+footer{
+  width: 100%;
+  height: 10%;
+  background-color: #ffff00;
+}
